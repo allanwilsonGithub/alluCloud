@@ -4,7 +4,7 @@ import MySQLdb
 import subprocess
 
 ### MYSQL
-LOCAL_ENV = ['localhost','root','neerg42','filmdb']
+LOCAL_ENV = ['localhost','root','alluCloudPassword','filmdb']
 ENVIRONMENT = LOCAL_ENV
 db_server = ENVIRONMENT[0]
 db_user = ENVIRONMENT[1]

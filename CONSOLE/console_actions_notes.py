@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(filename="D:\\ALLUSTORE\\alluCloud\\alluCloud.log",level=logging.DEBUG)
 
 ### MYSQL
-LOCAL_ENV = ['localhost','root','neerg42','notedb']
+LOCAL_ENV = ['localhost','root','alluCloudPassword','notedb']
 ENVIRONMENT = LOCAL_ENV
 db_server = ENVIRONMENT[0]
 db_user = ENVIRONMENT[1]

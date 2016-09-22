@@ -44,7 +44,7 @@ def downloadFiles(path,destination):
 ###FTP download if needed
 if doDownload == 1:
     ftp = FTP('www.kolumbus.fi')
-    ftp.login('w489867','neerg42')
+    ftp.login('w489867','alluCloud')
     ftp.cwd('alluCloud')
 	####
     source="/alluCloud"

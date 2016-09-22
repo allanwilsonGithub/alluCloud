@@ -8,7 +8,7 @@ logging.basicConfig(filename="D:\\ALLUSTORE\\alluCloud\\alluCloud.log",level=log
 
 QNAPserver = "192.168.100.200"
 QNAPUser = "alluCloud"
-QNAPPass = "neerg42"
+QNAPPass = "alluCloudPassword"
 QNAPDir = "Qweb/alluCloud/filesToProcess"
 localDir = "d:\\ALLUSTORE\\alluCloud\\WEBINTERFACE\\workingDirectory\\"
 

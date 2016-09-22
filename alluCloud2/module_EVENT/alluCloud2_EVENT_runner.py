@@ -29,7 +29,7 @@ def send_mail(text):
    s.close()
 
 ### MYSQL
-LOCAL_ENV = ['localhost','root','neerg42','eventdb']
+LOCAL_ENV = ['localhost','root','alluCloudPassword','eventdb']
 ENVIRONMENT = LOCAL_ENV
 db_server = ENVIRONMENT[0]
 db_user = ENVIRONMENT[1]
@@ -96,7 +96,7 @@ def get_birth_year(name):
     return query
     
 def query_config_database(query):
-    db = MySQLdb.connect('localhost','root','neerg42','dashdb')
+    db = MySQLdb.connect('localhost','root','alluCloudPassword','dashdb')
     cursor = db.cursor()
     cursor.execute(query)
     result = cursor.fetchall()
